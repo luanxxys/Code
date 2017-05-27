@@ -7,5 +7,5 @@
 
 #### 5.27，2017 
 1. #### creat Code repo
-- #### create Markdown branch
+1. #### create Markdown branch
 	

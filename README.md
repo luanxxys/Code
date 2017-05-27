@@ -5,6 +5,7 @@
 	
 ### TimeLine
 
-#### 5.27，2017 创建 Code repo
-1. #### create Markdown branch
+#### 5.27，2017 
+1. #### creat Code repo
+- #### create Markdown branch
 	

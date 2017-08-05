@@ -44,11 +44,11 @@
 
 	+ #### ~~删除线~~
 
-		~~删除线~~
+			~~删除线~~
 
 	+ #### 字体、字号、颜色
 
-			eg：
+			eg
 				<font color=#099ff size=12 face="黑体">黑体</font>
 
 		<font face="STCAIYUN">华文彩云</font>  
@@ -70,7 +70,7 @@
 
     + #### \` 标志
 
-			eg：
+			eg
 				` cout << "Hello,MarkDown !"; `   
 
     	` cout << "Hello,MarkDown !" ;`
@@ -79,7 +79,7 @@
 
 		整段代码引用
 
-			eg：
+			eg
 			```javascript
 			// All the code you will ever need
 			var hw = "Hello World!"
@@ -96,7 +96,7 @@
 
 		输出普通字符 \ ` * _ {} [] () # + - . !
 
-			eg：
+			eg
 				\( \* Hello \* \)\[]
 
 		\( \* Hello \* \)\[]
@@ -125,7 +125,7 @@
 
 		使用相对路径
 
-			eg：
+			eg
 				![test](../images/show_local_image_demo.jpg)
 
 1. #### 链接

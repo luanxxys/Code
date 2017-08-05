@@ -107,7 +107,7 @@
 
 	+ 引用网页图片：
 
-			eg:
+			eg
 				![shepherd](https://github.com/luanxxys/code/blob/master/markdown/images/show_local_image_demo.jpg)        
 		![shepherd](https://github.com/luanxxys/code/blob/master/markdown/images/show_local_image_demo.jpg)
 

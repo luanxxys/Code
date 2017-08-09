@@ -1,8 +1,8 @@
-## Learn Markdown
+# Learn Markdown
 
 This folder is recording my road of learning and using Markdown.
 
-### Catalog
+## Catalog
 
     ├── imags                       所用示例图片
     ├── learn_markdown.md           学习记录

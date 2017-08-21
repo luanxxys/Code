@@ -1,0 +1,230 @@
+body{
+	/* foot-famiy:'Helvetica Neue',Arial,'Liberation Sans',Freesans,'Hiragino SAns GB'	*/
+	background-image: url("background.png");
+}
+
+a{		/* 设置所有链接的属性 */
+	color: gray;
+	text-decoration: none;
+}
+
+.clear{
+	clear: both;
+}
+
+#head{
+	width: 960px;
+	/*	height: 100px;		 一般不默认高，让其自动填充 */
+	/*	background-color: green;	*/
+	color: white;
+	margin: auto;
+	border-bottom: dashed 1px white; 
+	margin-bottom: 10px;		/* 距底边距离 */
+}
+
+#wrapper{
+	margin: auto;
+	/*	background-color: black;
+	height: 500px;	*/
+	width: 960px;
+	margin-top: 20px;
+}
+
+.main{
+	width: 640px;
+	/*	height: 450px;	*/
+	background-color: white;
+	float: left;
+	margin-right: 20px;
+	border-radius: 8px;
+	padding: 20px;
+}
+
+.side{
+	width: 240px;
+	/*	height: 450px;	*/
+	background-color: white;
+	float: right;
+	border-radius: 8px;
+	padding: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+#footer{
+	width: 960px;
+	height: 60px;
+	/*	background-color: blue;	*/
+	margin: auto; 
+	border-top: dashed 1px white;
+	margin-top: 30px;
+	padding: 10px;
+}
+
+.logo_title{
+	float: left;
+}
+
+.logo_title h1{
+	font-size: 30px;
+}
+
+.logo_title h2{
+	font-size: 20px;
+}
+
+.navi{
+	float: right;
+}
+
+.navi ul{					/* 仅修改navi类里ul的属性 */
+	list-style: none;	/* 列表前不再有小圆点 */
+	margin-top: 78px;
+}
+
+.navi ul li{
+	display: inline-block;	/* 列表横向显示 */
+	margin-right: 20px;
+}
+
+.navi ul li a{
+	color: white;
+	border: solid 1px white;	/* 边框 */
+	border-radius: 6px;			/* 边框弧度 */
+	padding: 4px;				/* 填充 */
+	padding-left: 14px;
+	padding-right: 14px;
+}
+
+.item_img{
+	float: left;
+	width: 100px;
+	padding-top: 10px;
+}
+
+.item{
+	border-bottom: dashed 1px #ccc;
+	padding-bottom: 10px;
+	margin-top: 14px;
+}
+
+.item_img img{
+	width: 88px;
+}
+
+.item_content{
+	padding-left: 100px;
+}
+
+.item_content h3{
+	font-size: 16px;
+	color: #a5616d;
+	margin: 0;
+}
+
+.item_info{
+	font-size: 12px;
+	font-style: italic;
+	margin: 0;
+	color: #999;
+}
+
+.item_desc{
+	font-size: 14px;
+	margin: 0;
+	color: gray;
+	margin-top: 10px;
+	border-left: solid 1px #ccc;
+	padding-left: 10px;
+}
+
+.author_img{
+	width: 120px;
+	margin: auto;
+}
+
+.author_img img{
+	width: 100px;
+	border: solid 1px #ccc;
+	border-radius: 6px;
+}
+
+.author_desc{
+	text-align: center;
+	border: solid 1px #ccc;
+	border-radius: 6px;
+	background-color: #eee;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+
+.author_desc h4{
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.author_desc p{
+	font-size: 14px;
+}
+
+.top_article{
+	font-size: 18px;
+	font-style: italic;
+	color: #999;
+}
+
+.top_article ul{
+	list-style: none;
+	margin-left: 0px;
+	padding-left: 10px;
+}
+
+.top_article ul li{
+	margin-top: 10px;
+	color: #666;
+}
+
+.site_info{
+	margin-top: 30px;
+	border-top: solid 1px #ccc;
+}
+
+.site_info p{
+	font-size: 14px;
+	color: gray;
+	padding-left: 60px;
+	margin: 0px;
+	margin-top: 10px;
+}
+
+.site_about{
+	float: left;
+}
+
+.site_link{
+	float: right;
+}
+
+.site_about{
+	color: white;
+	padding-left: 30px;
+}
+
+.site_link ul{
+	list-style: none;
+	margin: 0;
+}
+
+.site_link ul li{
+	display: inline-block;
+	margin: 0;
+	color: white;
+	padding-right: 10px;
+}
+
+
+
+
+
+

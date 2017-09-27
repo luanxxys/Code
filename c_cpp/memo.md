@@ -74,23 +74,25 @@ cin 输入字符串遇到空格停止，若输入完整一句话：
 
 输出随机数，范围 n～n＋m－1
 
-    //  输出随机数，范围 n～n＋m－1 
-    // 
-    //  Created by luanxxy on 8/31/16. 
-    //  Copyright © 2016 luanxxy. All rights reserved. 
-    // 
-     
-    #include <iostream> 
-    #include <ctime> 
-    const int m = 9; 
-    const int n = 3; 
-     
-    int main() 
-    { 
-        double num; 
-        srand(time(NULL)); 
-        num = time(NULL)%m + n; 
-        std::cout << num << std::endl; 
-     
-        return 0; 
-    } 
+``` cpp
+//  输出随机数，范围 n～n＋m－1 
+// 
+//  Created by luanxxy on 8/31/16. 
+//  Copyright © 2016 luanxxy. All rights reserved. 
+// 
+ 
+#include <iostream> 
+#include <ctime> 
+const int m = 9; 
+const int n = 3; 
+ 
+int main() 
+{ 
+    double num; 
+    srand(time(NULL)); 
+    num = time(NULL)%m + n; 
+    std::cout << num << std::endl; 
+ 
+    return 0; 
+} 
+```

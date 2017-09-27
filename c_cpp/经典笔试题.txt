@@ -20,11 +20,12 @@
     const int &ra=a; 
     ra=1; //错误 
     a=1; //正确 
-  
+
 例2
 
     string foo( ); 
-    void bar(string &s); 
+    void bar(string &s);
+
 那么下面的表达式将是非法的： 
 
     bar(foo( )); 
@@ -49,31 +50,33 @@
 
 (4) 流操作符重载返回值申明为“引用”的作用。流操作符<<和>>，这两个操作符常常希望被连续使用，例如：cout << "hello" << endl;这两个操作符的返回值应该是一个仍然支持这两个操作符的流引用。可选的其它方案包括：返回一个流对象和返回一个流对象指针。但是对于返回一个流对象，程序必须重新（拷贝）构造一个新的流对象，也就是说，连续的两个<<操作符实际上是针对不同对象的，这无法让人接受。对于返回一个流指针则不能连续使用<<操作符。因此，返回一个流对象引用是唯一选择。这个唯一选择很关键，它说明了引用的重要性以及无可替代性，也许这就是C++语言中引入引用这个概念的原因吧。赋值操作符“=”，这个操作符象流操作符一样，是可以连续使用的，例如：x = j = 10;或者(x=10)=100;赋值操作符的返回值必须是一个左值，以便可以被继续赋值。引用成了这个操作符的唯一返回值选择。 
 
-例3 
+例3
 
-    #include <iostream.h> 
-      
-    int &put(int n); 
-    int vals[10]; 
-    int error = -1; 
-      
-    void main() 
-    { 
+``` cpp
+#include <iostream.h> 
+  
+int &put(int n); 
+int vals[10]; 
+int error = -1; 
+  
+void main() 
+{ 
     put(0) = 10; // 以put(0)函数值作为左值，等价于vals[0]=10; 
     put(9) = 20; // 以put(9)函数值作为左值，等价于vals[9]=20; 
     cout << put(0) << " " << put(9) << endl; 
-    } 
-      
-    int &put(int n) 
-    { 
+} 
+  
+int &put(int n) 
+{ 
     if (n >= 0 && n <= 9) 
-    return vals[n]; 
-    else 
+        return vals[n]; 
+    else
     { 
-    cout << "subscript error"; 
-    return error; 
+        cout << "subscript error"; 
+        return error; 
     } 
-    }
+}
+```
 
 (5) 在另外的一些操作符中，却千万不能返回引用：+-*/四则运算符。它们不能返回引用，Effective C++[1]的Item 23详细地讨论了这个问题。主要原因是这四个操作符没有side effect，因此，它们必须构造一个对象作为返回值，可选的方案包括：返回一个对象、返回一个局部变量的引用、返回一个new分配的对象的引用、返回一个静态对象引用。根据前面提到的引用作为返回值的三个规则，第2、3两个方案都被否决。静态对象的引用又因为((a+b) == (c+d))会永远为true而导致错误，所以可选的只剩下返回一个对象。 
 
@@ -117,7 +120,6 @@
 
 9. 面向对象的三个基本特征，并简单叙述之？ 
 
-
 (1) 封装：将客观事物抽象成类，每个类对自身的数据和方法实行protection(private, protected, public)。 
 
 (2) 继承：广义的继承有三种实现形式：实现继承（使用基类的属性和方法而无需额外编码的能力）、可视继承（子窗体使用父窗体的外观和实现代码）、接口继承（仅使用属性和方法的名称、实现滞后到子类实现）。 
@@ -140,11 +142,12 @@
 
 11. 如何判断一个单链表是有环的？（注意不能用标志位，最多只能用两个额外指针） 
 
-    struct node {char val; node *next;} 
-    bool check(const node *head) {}//return false :无环；true:  有环 
+        struct node {char val; node *next;} 
+        bool check(const node *head) {}//return false :无环；true:  有环 
 
-一种O(n)的办法就是（搞两个指针，一个每次递增一步，一个每次递增两步，如果有环的话两者必然重合，反之亦然）： 
-
+    一种O(n)的办法就是（搞两个指针，一个每次递增一步，一个每次递增两步，如果有环的话两者必然重合，反之亦然）： 
+    
+    ``` cpp
     bool check(const node *head) 
     { 
     if (head == NULL) 
@@ -160,6 +163,7 @@
     } 
     return false; 
     } 
+    ```
 
 12. 多态的作用？ 
 
@@ -195,11 +199,11 @@
 
 18. 分别写出BOOL,int,float,指针类型的变量a与零的比较语句。 
 
-    BOOL : if (!a) or if(a) 
-    int : if ( a == 0) 
-    float : const EXPRESSION EXP = 0.000001 
-    if (a < EXP && a >-EXP) 
-    pointer : if (a != NULL) or if(a == NULL) 
+        BOOL : if (!a) or if(a) 
+        int : if ( a == 0) 
+        float : const EXPRESSION EXP = 0.000001 
+        if (a < EXP && a >-EXP) 
+        pointer : if (a != NULL) or if(a == NULL) 
 
 19. 请说出const与#define相比，有何优点？ 
 
@@ -219,6 +223,7 @@
 
 (2) 用运算符sizeof可以计算出数组的容量（字节数）。sizeof(p)，p为指针得到的是一个指针变量的字节数，而不是p所指的内存容量。C++/C语言没有办法知道指针所指的内存容量，除非在申请内存时记住它。注意，当数组作为函数的参数进行传递时，该数组自动退化为同类型的指针。 
 
+    ``` cpp
     char a[] = "hello world"; 
     char *p = a; 
     cout << sizeof(a) << endl; // 12字节 
@@ -228,6 +233,7 @@
     { 
     cout<< sizeof(a) << endl; // 4字节而不是100字节 
     } 
+    ```
 
 21. 类成员函数的重载. 覆盖和隐藏区别？ 
 

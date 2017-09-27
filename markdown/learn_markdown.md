@@ -80,13 +80,13 @@
 		整段代码引用
 
 			eg
-			```javascript
+			``` javascript
 			// All the code you will ever need
 			var hw = "Hello World!"
 			alert(hw);
 			```
 
-		```javascript
+		``` javascript
 		// All the code you will ever need
 		var hw = "Hello World!"
 		alert(hw);

@@ -1,13 +1,11 @@
 # Use Markdown
 
 1. ### 标题
-    > 此处为三级标题
+> 此处为三级标题
 
-    最小为六级标题
+    ##### 最小为六级标题（此为六级标题效果）
 
         ###### 六级标题
-
-    ###### 六级标题效果
 
 1. ### 有序列表、无序列表
 
@@ -28,14 +26,13 @@
             -
             1.
             1.
-
         > 列表嵌套时，**_对齐方式很重要_**
 
 1. ### 字体
 
     + #### *斜体*
 
-            单个 * 或 _
+        单个 * 或 _
 
     + #### __粗体__
 
@@ -108,7 +105,8 @@
     + 引用网页图片：
 
             eg
-                ![shepherd](https://github.com/luanxxys/code/blob/master/markdown/images/show_local_image_demo.jpg)        
+                ![shepherd](https://github.com/luanxxys/code/blob/master/markdown/images/show_local_image_demo.jpg)
+
         ![shepherd](https://github.com/luanxxys/code/blob/master/markdown/images/show_local_image_demo.jpg)
 
         控制图片大小 + 加标注
@@ -129,12 +127,15 @@
                 ![test](/home/luanxxy/github/code/markdown/images/show_local_image_demo.jpg)
 
     + 引用 github 中上传的图片：两种方式
+    > 图片名称不要有空格
 
-    1. 相对于现在位置的相对路径
-            ![test_1](../images/test_1.jpg)
+        1. 相对于现在位置的相对路径
 
-    2. 将仓库主目录当作根目录 /
-            ![test_1](/images/test_1.jpg)
+                ![test_1](../images/test_1.jpg)
+
+        2. 将仓库主目录当作根目录 /
+
+                ![test_1](/images/test_1.jpg)
 
 1. #### 链接
 
@@ -155,7 +156,7 @@
 
 1. #### 分割线
 
-    (三个及其以上） _ _ _ 或 --- 或 ***
+    (三个及其以上） ___ 或 --- 或 ***
 
     ***
 

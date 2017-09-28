@@ -127,7 +127,7 @@
                 ![test](/home/luanxxy/github/code/markdown/images/show_local_image_demo.jpg)
 
     + 引用 github 中上传的图片：两种方式
-    > 图片名称不要有空格
+        > 图片名称不要有空格
 
         1. 相对于现在位置的相对路径
 

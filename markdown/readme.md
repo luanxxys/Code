@@ -119,13 +119,6 @@
 
         </center>
 
-    + 引用本地图片
-
-        使用绝对路径
-
-            eg
-                ![test](/home/luanxxy/github/code/markdown/images/show_local_image_demo.jpg)
-
     + 引用 github 中上传的图片：两种方式
         > 图片名称不要有空格
 
@@ -136,6 +129,10 @@
         2. 将仓库主目录当作根目录 /
 
                 ![test_1](/images/test_1.jpg)
+
+    + 引用本地图片
+
+        类似于引用 github 仓库中的图片的方法
 
 1. #### 链接
 

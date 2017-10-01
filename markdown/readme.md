@@ -140,6 +140,10 @@
 
     [Markdown](https://github.com/luanxxys/code/tree/master/markdown)
 
+1. #### EMOJI:smile:
+
+    [EMOJI CHEAT SHEET](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
+
 1. #### 表格
 
     Tables | Are | Here

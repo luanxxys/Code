@@ -111,13 +111,10 @@
 
         控制图片大小 + 加标注
 
-        <center>
+            嵌入HTML代码,使用img标签
+                <img src="images/show_local_image_demo.jpg" width="25%" height="25%" alt="德牧" align=center />
 
-        <img src="https://github.com/luanxxys/code/blob/master/markdown/images/show_local_image_demo.jpg" width="25%" height="25%" />
-
-        德牧
-
-        </center>
+        <img src="images/show_local_image_demo.jpg" width="25%" height="25%" alt="德牧" align=center />
 
     + 引用 github 中上传的图片：两种方式
         > 图片名称不要有空格

@@ -48,9 +48,12 @@
             eg
                 <font color=#099ff size=12 face="黑体">黑体</font>
 
-        <font color=red>红色  </font> 
+        <font color=red>红色</font>
+
         <font face="STCAIYUN">华文彩云</font>
-        <font color="gray size="5">gray</font>
+        
+        <font color="gray" size="5">gray</font>
+        
         <font color="#099ff" size="12" face="黑体">黑体</font>
 
         > 暂未成功

@@ -17,28 +17,28 @@
 删除 conda
 
     rm -rf ~/miniconda OR  rm -rf ~/anaconda
-    > 移除 Anaconda 或 Miniconda 安装文件夹
+   > 移除 Anaconda 或 Miniconda 安装文件夹
 
 ### 管理环境
 
 创建并激活一个环境
 
     conda creat -n snowflake biopython
-    > 给Biopython创建一个新的环境，位置在/envs/snowflakes
+   > 给Biopython创建一个新的环境，位置在/envs/snowflakes
 
     source activate snowflakes
-    > 激活这个环境
-    >
-    > 未指定 python 版本，则默认为安装 conda 时的版本
+   > 激活这个环境
+   >
+   > 未指定 python 版本，则默认为安装 conda 时的版本
 
 创建第二个环境
 
 > 创建并命名一个新环境，然后安装另一个版本的 python 以及两个包 Astroid 和 Babel
 
     conda create -n bunnies python=3 Astroid Babel
-    > 在/envs/bunnies 文件夹
-    >
-    > 在你创建环境的同时安装好所有你想要的程序，在后来依次安装可能会导致依赖性问题
+   > 在/envs/bunnies 文件夹
+   >
+   > 在你创建环境的同时安装好所有你想要的程序，在后来依次安装可能会导致依赖性问题
 
 列出所有的环境/确认当前环境
 
@@ -103,9 +103,9 @@
 安装一个新包
 
     conda install --name bunnies <package_name>
-    > 你必须告诉 conda 你要安装环境的名字（-n bunies）否则它将会被安装到当前环境中
-    >
-    > 然后激活 bunnies 环境，并且用 'conda list' 来显示哪些程序被安装了
+   > 你必须告诉 conda 你要安装环境的名字（-n bunies）否则它将会被安装到当前环境中
+   >
+   > 然后激活 bunnies 环境，并且用 'conda list' 来显示哪些程序被安装了
 
 从 Anaconda.org 安装一个包
 > 如果一个包不能使用 conda 安装，我们接下来将在 Anaconda.org 网站查找
@@ -117,7 +117,7 @@
 
     source activate bunnies
     pip install see
-    >  pip 只是一个包管理器，所以它不能为你管理环境,所以首先激活我们想放置程序的环境
+   >  pip 只是一个包管理器，所以它不能为你管理环境,所以首先激活我们想放置程序的环境
 
 [reference:Anaconda入门使用指南](http://www.jianshu.com/p/169403f7e40c)
 

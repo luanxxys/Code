@@ -42,7 +42,7 @@
 
 列出所有的环境/确认当前环境
 
-    conda info -envis
+    conda info --envs
 
 切换到另一个环境(activate/deactivate)
 

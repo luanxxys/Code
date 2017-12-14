@@ -112,7 +112,7 @@
 
     + 引用网页图片：
 
-                ![shepherd](https://github.com/luanxxys/code/blob/master/markdown/images/show_local_image_demo.jpg)
+            ![shepherd](https://github.com/luanxxys/code/blob/master/markdown/images/show_local_image_demo.jpg)
 
         ![shepherd](https://github.com/luanxxys/code/blob/master/markdown/images/show_local_image_demo.jpg)
 
@@ -168,7 +168,7 @@
 
 # *问题汇总*
 
-1. 整段代码引用加上行号
+1. 整段代码引用加上行号 - 未达成
 
 + #### 使代码段显示行号
 
@@ -193,15 +193,3 @@
     > mark:#,#-# 在第#行，以及第#-#行显示行号
     >
     > linenos:false true 所有行都显示行号，false所有行都不显示行号
-
-    效果
-
-    {% codeblock [lang:python] [linenos:true] %}
-    # import module and train/test set
-    import numpy as np
-    import pandas as pd
-    train = pd.read_csv('data/train.csv')
-    test = pd.read_csv('data/test.csv')
-    # combine the train set and predict set to simplify the step
-    full=pd.concat([train,test],ignore_index=True)
-    {% endcodeblock %}

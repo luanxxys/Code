@@ -1,5 +1,4 @@
-body{
-	/* foot-famiy:'Helvetica Neue',Arial,'Liberation Sans',Freesans,'Hiragino SAns GB'	*/
+body{/* foot-famiy:'Helvetica Neue',Arial,'Liberation Sans',Freesans,'Hiragino SAns GB'	*/
 	background-image: url("background.png");
 }
 
@@ -8,9 +7,7 @@ a{		/* 设置所有链接的属性 */
 	text-decoration: none;
 }
 
-.clear{
-	clear: both;
-}
+.clear{clear: both;}
 
 #head{
 	width: 960px;
@@ -18,7 +15,7 @@ a{		/* 设置所有链接的属性 */
 	/*	background-color: green;	*/
 	color: white;
 	margin: auto;
-	border-bottom: dashed 1px white; 
+	border-bottom: dashed 1px white;
 	margin-bottom: 10px;		/* 距底边距离 */
 }
 
@@ -55,29 +52,21 @@ a{		/* 设置所有链接的属性 */
 	width: 960px;
 	height: 60px;
 	/*	background-color: blue;	*/
-	margin: auto; 
+	margin: auto;
 	border-top: dashed 1px white;
 	margin-top: 30px;
 	padding: 10px;
 }
 
-.logo_title{
-	float: left;
-}
+.logo_title{float: left;}
 
-.logo_title h1{
-	font-size: 30px;
-}
+.logo_title h1{font-size: 30px;}
 
-.logo_title h2{
-	font-size: 20px;
-}
+.logo_title h2{font-size: 20px;}
 
-.navi{
-	float: right;
-}
+.navi{float: right;}
 
-.navi ul{					/* 仅修改navi类里ul的属性 */
+.navi ul{					/* 仅修改 navi 类里 ul 的属性 */
 	list-style: none;	/* 列表前不再有小圆点 */
 	margin-top: 78px;
 }
@@ -108,13 +97,9 @@ a{		/* 设置所有链接的属性 */
 	margin-top: 14px;
 }
 
-.item_img img{
-	width: 88px;
-}
+.item_img img{width: 88px;}
 
-.item_content{
-	padding-left: 100px;
-}
+.item_content{padding-left: 100px;}
 
 .item_content h3{
 	font-size: 16px;
@@ -164,9 +149,7 @@ a{		/* 设置所有链接的属性 */
 	margin-bottom: 10px;
 }
 
-.author_desc p{
-	font-size: 14px;
-}
+.author_desc p{font-size: 14px;}
 
 .top_article{
 	font-size: 18px;
@@ -198,13 +181,9 @@ a{		/* 设置所有链接的属性 */
 	margin-top: 10px;
 }
 
-.site_about{
-	float: left;
-}
+.site_about{float: left;}
 
-.site_link{
-	float: right;
-}
+.site_link{float: right;}
 
 .site_about{
 	color: white;

@@ -1,7 +1,6 @@
 ### 函数
 
-crypt()
-> 快速计算 hash
+crypt() --> 快速计算 hash
 
     import crypt
     crypt.crypt("egg", "HX")
@@ -40,7 +39,7 @@ def main():
         password = line.strip('\n')
         guess = extract_file(z_file, password)
         if guess:
-            print("Password = " + password +d '\n')
+            print("Password =" + password +d '\n')
             exit(0)
 if __name__ == '__main__':
     main()

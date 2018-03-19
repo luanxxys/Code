@@ -24,27 +24,27 @@
 
 1. ### 字体
 
-    + #### *斜体*
+    + #### * 斜体 *
 
         单个 * 或 _
 
     + #### __粗体__
 
         两个 * 或 _
-        > 同时想要 **粗体** 和 *斜体* 效果时，内层斜体，外层粗体（不加空格）
+        > 同时想要 ** 粗体 ** 和 * 斜体 * 效果时，内层斜体，外层粗体（不加空格）
 
-    + #### ~~删除线~~
+    + #### ~~ 删除线~~
 
-            ~~删除线~~
+            ~~ 删除线~~
 
     + #### 字体、字号、颜色
 
-                <font color=#099ff size=12 face="黑体">黑体</font>
+            <font color=#099ff size=12 face=" 黑体 "> 黑体 </font>
 
-        <font color="red">红色</font>
-        <font face="STCAIYUN">华文彩云</font>
-        <font color="gray" size="5">gray</font>
-        <font color="#099ff" size="12" face="黑体">黑体</font>
+        <font color="red"> 红色 </font>
+        <font face="STCAIYUN"> 华文彩云 </font>
+        <font color="gray"size="5">gray</font>
+        <font color="#099ff"size="12"face=" 黑体 "> 黑体 </font>
         > github 中暂未成功
 
 1. ### 引用
@@ -60,9 +60,9 @@
 
     + #### \`
 
-                ` cout << "Hello, MarkDown !"; `
+            ` cout <<"Hello, MarkDown !"; `
 
-        ` cout << "Hello, MarkDown !" ;`
+        ` cout <<"Hello, MarkDown !" ;`
 
     + #### ```
 
@@ -94,15 +94,15 @@
 
         输出普通字符 \ ` * _ {} [] () # + - . !
 
-                \( \* Hello \* \)\[]
+            \(\* Hello \* \)\[]
 
-        \( \* Hello \* \)\[]
+        \(\* Hello \* \)\[]
 
 1. #### 链接
 
     []()
 
-            [Markdown](https://github.com/luanxxys/code/tree/master/markdown)
+        [Markdown](https://github.com/luanxxys/code/tree/master/markdown)
 
     [Markdown](https://github.com/luanxxys/code/tree/master/markdown)
 
@@ -118,10 +118,10 @@
 
         控制图片大小 + 加标注
 
-            嵌入HTML代码,使用 img 标签
-            <img src="images/show_local_image_demo.jpg" width="25%" height="25%" alt="德牧" align=center />
+            嵌入 HTML 代码, 使用 img 标签
+            <img src="images/show_local_image_demo.jpg"width="25%"height="25%"alt=" 德牧 "align=center />
 
-        <img src="images/show_local_image_demo.jpg" width="25%" height="25%" alt="德牧" align=center />
+        <img src="images/show_local_image_demo.jpg"width="25%"height="25%"alt=" 德牧 "align=center />
 
     + 引用 github 中上传的图片：两种方式
         > 图片名称不要有空格
@@ -141,6 +141,7 @@
 1. #### EMOJI:smile:
 
     [EMOJI CHEAT SHEET](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
+    [Full Emoji List](https://www.unicode.org/emoji/charts/full-emoji-list.html)
 
 1. #### 表格
 
@@ -166,11 +167,7 @@
 
 1. #### [Advanced usage](advanced.md)
 
-# *问题汇总*
-
-1. 整段代码引用加上行号 - 未达成
-
-+ #### 使代码段显示行号
+1. #### 使代码段显示行号
 
         {% codeblock [lang:python] [title] [url] [link text] [start:#] [mark:#,#-#] [linenos:false] %}
 
@@ -182,14 +179,18 @@
     >
     > title 代码块上方的标题
     >
-    > url 为本段代码指定一个url，用于下载或引用
+    > url 为本段代码指定一个 url，用于下载或引用
     >
-    > link text url显示的文字
+    > link text url 显示的文字
     >
     > 以下三个用于控制行号显示
     >
-    > start:# 从第#行开始显示行号
+    > start:# 从第 #行开始显示行号
     >
-    > mark:#,#-# 在第#行，以及第#-#行显示行号
+    > mark:#,#-# 在第 #行，以及第 #-# 行显示行号
     >
-    > linenos:false true 所有行都显示行号，false所有行都不显示行号
+    > linenos:false true 所有行都显示行号，false 所有行都不显示行号
+
+# * 问题汇总 *
+
+1. 整段代码引用加上行号 - 未达成

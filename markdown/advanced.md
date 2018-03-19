@@ -4,34 +4,34 @@
 
     + ### 数学公式
 
-        可以直接插入TeX公式
+        可以插入 TeX 公式
 
             $e^x = \sum_{n=0}^\infty \frac{x^n}{n!} = \lim_{n\rightarrow\infty} (1+x/n)^n$
 
         渲染效果为
 
-            ex=∑n=0∞xnn!=limn→∞(1+x/n)n
+        ![](https://latex.codecogs.com/gif.latex?e^x&space;=&space;\sum_{n=0}^\infty&space;\frac{x^n}{n!}&space;=&space;\lim_{n\rightarrow\infty}&space;(1&plus;x/n)^n)
 
-        [Cheat Sheet - LATEX Mathematical Symbols](https://reu.dimacs.rutgers.edu/Symbols.pdf)
+        * [Cheat Sheet - LATEX Mathematical Symbols](Symbols.pdf)
+        * [常用公式模板](formumla_palette.md)
+        * [在线编辑数学公式](https://www.codecogs.com/latex/eqneditor.php)
+        > Github 不能渲染 Tex 公式，需到上面网址，将公式转化成 URL, HTML 或图片形式，嵌入到 md 文件中
 
     + ### 脚注
 
     + ### 文献引用
-
-    > [如何用Markdown写论文？](http://www.jianshu.com/p/b0ac7ae98100)
+        > [如何用 Markdown 写论文？](http://www.jianshu.com/p/b0ac7ae98100)
 
 - ### Transfer markdown file into other DOCs
 
     + Pre-installed
 
         [Pandoc](https://pandoc.org/installing.html)
-
         [TeX Live(LaTex)](https://www.tug.org/texlive/)
 
     + Manual
 
         [Pandoc demos](http://pandoc.org/demos.html)
-
         [Pandoc User’s Guide](http://pandoc.org/MANUAL.html)
 
         常用
@@ -46,22 +46,27 @@
 
         * PDF
 
-                pandoc MANUAL.txt --pdf-engine=xelatex -o example13.pdf
+                pandoc MANUAL.txt -o example.pdf --latex-engine=xelatex -V mainfont="SimSun"
 
         * HTML slide shows
 
-                pandoc slides.md -o slides.html -t revealjs -s --metadata title="title"
+                pandoc slides.md  -o slides.html -t revealjs -s
 
-            定制样式：从GitHub上获取 reveal.js，把文件夹放在幻灯片所在目录下即可
+            定制样式：从 GitHub 上获取 reveal.js，把文件夹放在幻灯片所在目录下即可
 
                 cd project
                 git clone https://github.com/hakimel/reveal.js
 
-            除了默认的外观主题以外，reveal.js还提供了多个主题可供选择
 
-                pandoc slides.md -o slides.html -t revealjs -s -V theme=beige --metadata title="title"
+            除了默认的外观主题以外，reveal.js 还提供了多个主题可供选择
 
-            > default：（默认）深灰色背景，白色文字
+                pandoc slides.md -o slides.html -t revealjs -s -V theme=solarized
+
+            > solarized：奶油色背景，深青色文字
+            >
+            > serif：浅色背景，灰色衬线文字
+            >
+            > simple：白色背景，黑色文字
             >
             > beige：米色背景，深色文字
             >
@@ -69,11 +74,7 @@
             >
             > night：黑色背景，白色粗文字
             >
-            > serif：浅色背景，灰色衬线文字
-            >
-            > simple：白色背景，黑色文字
-            >
-            > solarized：奶油色背景，深青色文字
+            > default：（默认）深灰色背景，白色文字
 
         [Markdown HTML 幻灯片](http://notes.11ten.net/pandoc-silde.html)
 

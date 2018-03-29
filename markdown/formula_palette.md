@@ -1,5 +1,11 @@
 # 常用数学公式语法
 
+1. ### 一些特殊写法
+
+        {\sum} _{n=0}^{N-1}
+
+    <img src="https://latex.codecogs.com/gif.latex?{\sum}&space;_{n=0}^{N-1}" title="{\sum} _{n=0}^{N-1}" />
+
 1. ### 角标 和 开方
 
         $c = \sqrt{a^{2}+b_{xy}^{2} +e^{x}}$

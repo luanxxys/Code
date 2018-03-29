@@ -6,11 +6,11 @@
 
         可以插入 TeX 公式
 
-            $e^x = \sum_{n=0}^\infty \frac{x^n}{n!} = \lim_{n\rightarrow\infty} (1+x/n)^n$
+            $$R_{n}(\tau)=\sum_{m=0}^{n-1-\tau} \left [s(n+m)w(m) \right ] \left[s(n+m+\tau)w(m+\tau) \right ]$$
 
         渲染效果为
 
-        ![](https://latex.codecogs.com/gif.latex?e^x&space;=&space;\sum_{n=0}^\infty&space;\frac{x^n}{n!}&space;=&space;\lim_{n\rightarrow\infty}&space;(1&plus;x/n)^n)
+        <img src="https://latex.codecogs.com/gif.latex?R_{n}(\tau&space;)=\sum_{m=0&space;}^{n-1-\tau}&space;\left&space;[&space;s(n&plus;m)w(m)&space;\right&space;]&space;\left[&space;s(n&plus;m&plus;\tau)w(m&plus;\tau)&space;\right&space;]"title="R_{n}(\tau)=\sum_{m=0}^{n-1-\tau} \left [s(n+m)w(m) \right ] \left[s(n+m+\tau)w(m+\tau) \right ]"/>
 
         * [Cheat Sheet - LATEX Mathematical Symbols](Symbols.pdf)
         * [常用公式模板](formumla_palette.md)
@@ -20,19 +20,20 @@
     + ### 脚注
 
     + ### 文献引用
+
         > [如何用 Markdown 写论文？](http://www.jianshu.com/p/b0ac7ae98100)
 
 - ### Transfer markdown file into other DOCs
 
     + Pre-installed
 
-        [Pandoc](https://pandoc.org/installing.html)
-        [TeX Live(LaTex)](https://www.tug.org/texlive/)
+        * [Pandoc](https://pandoc.org/installing.html)
+        * [TeX Live(LaTex)](https://www.tug.org/texlive/)
 
     + Manual
 
-        [Pandoc demos](http://pandoc.org/demos.html)
-        [Pandoc User’s Guide](http://pandoc.org/MANUAL.html)
+        * [Pandoc demos](http://pandoc.org/demos.html)
+        * [Pandoc User’s Guide](http://pandoc.org/MANUAL.html)
 
         常用
 
@@ -80,6 +81,5 @@
 
 - ### Reference
 
-    [reveal.js（HTML 演示文稿）中文文档](https://vxhly.github.io/2016/09/reveal-js-cn-document/)
-
-    [Markdown 语法手册 （完整整理版）](http://blog.leanote.com/post/freewalk/Markdown-%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C)
+    + [reveal.js（HTML 演示文稿）中文文档](https://vxhly.github.io/2016/09/reveal-js-cn-document/)
+    + [Markdown 语法手册 （完整整理版）](http://blog.leanote.com/post/freewalk/Markdown-%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C)

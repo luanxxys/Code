@@ -121,7 +121,7 @@
             嵌入 HTML 代码, 使用 img 标签
             <img src="images/show_local_image_demo.jpg" width="25%" height="25%" alt="德牧" align=center />
 
-        <img src="images/show_local_image_demo.jpg" width="25%" height="25%" alt="德牧" align=center />
+        <img src="images/show_local_image_demo.jpg" width="25%" height="25%" />
 
     + 引用 github 中上传的图片：两种方式
         > 图片名称不要有空格

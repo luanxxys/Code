@@ -2,9 +2,13 @@
 
 1. ### 一些特殊写法
 
-        {\sum} _{n=0}^{N-1}
+        ${\sum} _{n=0}^{N-1}$
 
     <img src="https://latex.codecogs.com/gif.latex?{\sum}&space;_{n=0}^{N-1}" title="{\sum} _{n=0}^{N-1}" />
+
+        $\text{arg }\underset{w,b}{max}$
+
+    <img src="https://latex.codecogs.com/gif.latex?\text{arg&space;}\underset{w,b}{max}" title="\text{arg }\underset{w,b}{max}" />
 
 1. ### 角标 和 开方
 

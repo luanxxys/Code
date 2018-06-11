@@ -1,6 +1,6 @@
 # Python 3
 
-## 元素
+## 数据类型
 
 - [sequence](sequence.md)
 - [tuple](tuple.md)
@@ -10,7 +10,7 @@
 - [dict](dict.md)
 - [file](file.md)
 
-[list-set-dic-tuple转换](list-set-dic-tuple转换.md)
+- [list-set-dic-tuple转换](list-set-dic-tuple转换.md)
 
 Python3 的六个标准数据类型中
 

@@ -1,4 +1,4 @@
-### 函数
+### Python 攻击
 
 crypt() --> 快速计算 hash
 

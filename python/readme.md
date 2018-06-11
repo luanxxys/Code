@@ -12,13 +12,18 @@
 
 [list-set-dic-tuple转换](list-set-dic-tuple转换.md)
 
+Python3 的六个标准数据类型中
+
+- **不可变数据（四个）**：Number（数字）、String（字符串）、Tuple（元组）、Sets（集合）
+- **可变数据（两个）**：List（列表）、Dictionary（字典）
+
 ## 基础知识
 
-- [if __name__ == '__main__' ](if __name__ == '__main__' .md)
+- [if __name__ == '__main__' ](if__name__=='__main__'.md)
 - [sort_sorted](sort_sorted.md)
 - [程序头注释](程序头注释.md)
 - [python下划线含义](python下划线含义.md)
-- [python 中的编码](python 中的编码.pdf)
+- [python中的编码](python中的编码.pdf)
 - [PEP8标准](PEP8.md)
 - [模块、包、分发](模块、包、分发.md)
 - [程序结构与控制流](程序结构与控制流.md)

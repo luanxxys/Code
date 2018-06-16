@@ -83,3 +83,4 @@
 
     + [reveal.js（HTML 演示文稿）中文文档](https://vxhly.github.io/2016/09/reveal-js-cn-document/)
     + [Markdown 语法手册 （完整整理版）](http://blog.leanote.com/post/freewalk/Markdown-%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C)
+    + [4种基于Markdown的幻灯片生成器](4种基于Markdown的幻灯片生成器.pdf)

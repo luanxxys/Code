@@ -106,6 +106,9 @@
 
     [Markdown](https://github.com/luanxxys/code/tree/master/markdown)
 
+
+    > 若在 Github 中相对地址引用自己的文件, 文件名中不可有空格
+
 1. #### 引用图片
 
         ！\[]\()

@@ -91,7 +91,7 @@ Python 的强大特性之一是其对 list 的解析, 它提供一种紧凑的�
 
 #### 条件列表解析
 
-    [ x for x in range(100) if x%2 ==0 ]
+    [ x for x in range(100) if x%2 == 0 ]
 
 #### 嵌套列表解析
 

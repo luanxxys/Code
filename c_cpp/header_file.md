@@ -87,4 +87,5 @@
     #include <strstrea.h>| 该类不再支持，改用 <sstream> 中的 stringstream
 
 ————————————————————————————————
-[source](http://www.cnblogs.com/delmory/p/3983798.html)
+
+[reference](http://www.cnblogs.com/delmory/p/3983798.html)

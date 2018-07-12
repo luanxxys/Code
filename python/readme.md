@@ -35,4 +35,6 @@ Python3 的六个标准数据类型中
 - [类与面向对象编程](类与面向对象编程.md)
 - [快速理解 Python 命名空间](快速理解Python命名空间.pdf)
 
-[Reference：廖雪峰 Python 教程](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
+## reference
+
+[入门: 廖雪峰 Python3 教程](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)

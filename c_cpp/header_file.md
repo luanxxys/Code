@@ -2,7 +2,7 @@
 
 - ### 标准 C++
 
-    name｜description
+    name|description
     ---|---
     #include <algorithm>|STL 通用算法
     #include <bitset>|STL 位集容器
@@ -56,7 +56,7 @@
 
 - ### C
 
-    name｜description
+    name|description
     ---|---
     #include <assert.h>| 设定插入点
     #include <ctype.h>| 字符处理
@@ -79,7 +79,7 @@
 
 - ### 传统 C++
 
-    name｜description
+    name|description
     ---|---
     #include <fstream.h>| 改用 <fstream>
     #include <iomanip.h>| 改用 <iomainip>

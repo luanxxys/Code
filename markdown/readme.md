@@ -1,5 +1,14 @@
 # Use Markdown
 
+下面介绍简单的 Markdown 语法, 一些参考首先张贴如下:
+
+- [Advanced usage](advanced.md)
+- [LATEX Mathematical Symbols](Symbol.pdf)
+- [不完善的常用公式 demo](formula_palette.md)
+- [4 种基于 Markdown 的幻灯片生成器.pdf](4种基于Markdown的幻灯片生成器.pdf)
+
+---
+
 1. ### 标题
     > 此处为三级标题
 
@@ -167,8 +176,6 @@
     (三个及其以上） ___ 或 --- 或 ***
 
     ***
-
-1. #### [Advanced usage](advanced.md)
 
 1. #### 使代码段显示行号
 

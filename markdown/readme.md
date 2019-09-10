@@ -1,20 +1,14 @@
 # Use Markdown
 
-下面介绍简单的 Markdown 语法, 一些参考首先张贴如下:
-
-- [Advanced usage](advanced.md)
-- [LATEX Mathematical Symbols](Symbol.pdf)
-- [不完善的常用公式 demo](formula_palette.md)
-- [4 种基于 Markdown 的幻灯片生成器.pdf](4种基于Markdown的幻灯片生成器.pdf)
+介绍简单的 Markdown 语法。
 
 ---
 
 1. ### 标题
+
     > 此处为三级标题
 
-    ##### 最小为六级标题（此即为效果）
-
-        ###### 六级标题
+    ###### 最小为六级标题（此即为效果）
 
 1. ### 列表
 
@@ -29,6 +23,7 @@
             1.
             1.
             1.
+
         > 列表嵌套时，**_对齐方式很重要_**
 
 1. ### 字体
@@ -40,6 +35,7 @@
     + #### __粗体__
 
         两个 * 或 _
+
         > 同时想要 ** 粗体 ** 和 * 斜体 * 效果时，内层斜体，外层粗体（不加空格）
 
     + #### ~~ 删除线~~
@@ -47,13 +43,17 @@
             ~~ 删除线~~
 
     + #### 字体、字号、颜色
-
-            <font color=#099ff size=12 face=" 黑体 "> 黑体 </font>
-
+        
+        <font color=#099ff size=12 face=" 黑体 "> 黑体 </font>
+        
         <font color="red"> 红色 </font>
+        
         <font face="STCAIYUN"> 华文彩云 </font>
+        
         <font color="gray"size="5">gray</font>
+        
         <font color="#099ff"size="12"face=" 黑体 "> 黑体 </font>
+
         > github 中暂未成功
 
 1. ### 引用
@@ -99,7 +99,7 @@
         full=pd.concat([train,test],ignore_index=True)
         ```
 
-    + ##### \
+    + #### \
 
         输出普通字符 \ ` * _ {} [] () # + - . !
 
@@ -107,20 +107,15 @@
 
         \(\* Hello \* \)\[]
 
-1. #### 链接
-
-    []()
+1. ### 链接 []()
 
         [Markdown](https://github.com/luanxxys/code/tree/master/markdown)
 
     [Markdown](https://github.com/luanxxys/code/tree/master/markdown)
 
-
     > 若在 Github 中相对地址引用自己的文件, 文件名中不可有空格
 
-1. #### 引用图片
-
-        ！\[]\()
+1. #### 引用图片 ！\[]\()
 
     + 引用网页图片：
 
@@ -128,14 +123,15 @@
 
         ![shepherd](https://github.com/luanxxys/code/blob/master/markdown/images/show_local_image_demo.jpg)
 
-        控制图片大小 + 加标注
+        * 控制图片大小 + 加标注
 
-            嵌入 HTML 代码, 使用 img 标签
-            <img src="images/show_local_image_demo.jpg" width="25%" height="25%" alt="德牧" align=center />
+                嵌入 HTML 代码, 使用 img 标签
+                <img src="images/show_local_image_demo.jpg" width="25%" height="25%" alt="德牧" align=center />
 
-        <img src="images/show_local_image_demo.jpg" width="25%" height="25%" />
+            <img src="images/show_local_image_demo.jpg" width="25%" height="25%" />
 
     + 引用 github 中上传的图片：两种方式
+    
         > 图片名称不要有空格
 
         1. 相对于现在位置的相对路径
@@ -150,12 +146,12 @@
 
         类似于引用 github 仓库中的图片的方法
 
-1. #### EMOJI:smile:
+1. ### EMOJI :smile:
 
-    [EMOJI CHEAT SHEET](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
-    [Full Emoji List](https://www.unicode.org/emoji/charts/full-emoji-list.html)
+    - [EMOJI CHEAT SHEET](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
+    - [Full Emoji List](https://www.unicode.org/emoji/charts/full-emoji-list.html)
 
-1. #### 表格
+1. ### 表格
 
         Tables | Are | Here
         -----|:-----:|-----:
@@ -171,19 +167,19 @@
     --- |:---:|---:
     默认左对齐 | 居中 | 右对齐
 
-1. #### 分割线
+    > 表格内如何换行：可以用 html 的代码，插入代码 \<\br>
 
-    (三个及其以上） ___ 或 --- 或 ***
+1. ### 分割线 ___ 或 --- 或 *** (三个及其以上）
 
     ***
 
-1. #### 使代码段显示行号
+1. ### 使代码段显示行号
 
-        {% codeblock [lang:python] [title] [url] [link text] [start:#] [mark:#,#-#] [linenos:false] %}
+    {% codeblock [lang:python] [title] [url] [link text] [start:#] [mark:#,#-#] [linenos:false] %}
 
-        code snippet
-
-        {% endcodeblock %}
+    code snippet
+    
+    {% endcodeblock %}
 
     > lang 语言
     >
@@ -204,3 +200,10 @@
 # * 问题汇总 *
 
 1. 整段代码引用加上行号 - 未达成
+
+### reference
+
+- [Advanced usage](advanced.md)
+- [LATEX Mathematical Symbols](Symbol.pdf)
+- [不完善的常用公式 demo](formula_palette.md)
+- [4 种基于 Markdown 的幻灯片生成器.pdf](4种基于Markdown的幻灯片生成器.pdf)

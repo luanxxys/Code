@@ -19,7 +19,7 @@ Python3 的六个标准数据类型
 
 ## 基础知识
 
-- [if __name__ == '__main__' ](if__name__=='__main__'.md)
+- [`if __name__ == '__main__'`](if__name__=='__main__'.md)
 - [sort_sorted](sort_sorted.md)
 - [python中的编码](python中的编码.pdf)
 - [模块、包、分发](模块、包、分发.md)
@@ -34,6 +34,7 @@ Python3 的六个标准数据类型
 ## [编程规范/coding_style](coding_style)
 
 - [PEP8标准](coding_style/PEP8.md)
+- [编程规范笔记](coding_style/编程规范.md)
 - [程序头注释](coding_style/程序头注释.md)
 - [python下划线含义](coding_style/python下划线含义.md)
 - [快速理解 Python 命名空间](coding_style/快速理解Python命名空间.pdf)
